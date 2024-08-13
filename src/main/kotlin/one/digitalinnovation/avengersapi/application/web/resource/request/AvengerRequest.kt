@@ -16,8 +16,8 @@ data class AvengerRequest(
     @field:NotEmpty
     val person: String,
 
-    val description: String? = "",
-    val history: String? = "",
+    val description: String? = null,
+    val history: String? = null,
 
     ) {
     // método da instância
